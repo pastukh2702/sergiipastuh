@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<!-- <script type="text/javascript">
+		function load()
+		{window.location.href = "http://localhost:3000/#";}
+		
+	</script> -->
+
+</head>
+
+
+<body class="ishome" onload="load()">
+
+	<div class="my-page">
+
+		<div class="my-header">
+
+			<header class="site-header" style="background-image: url(img/fon.png);">
+
+				<div class="top-line">
+					<div class="soc-icons">
+						<a href="https://www.facebook.com/serpast" class="facebook"><img src="img/facebook-icon.png" alt="Sergiy Pastukh"></a>
+						<a href="https://www.facebook.com/serpast" class="linkedin"><img src="img/link-icon.png" alt="Sergiy Pastukh"></a>
+					</div>
+				</div>
+				<div class="middle-line">
+					<div class="container">
+						<div class="row justify-content-center align-items-center logo">
+							<div class="col-md-6 logo-img"></div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom-line">
+					<div class="lang-icons">
+						<a href="https://www.facebook.com/serpast" class="facebook"><img src="img/ru-icon.png" alt="Sergiy Pastukh"></a>
+						<a href="https://www.facebook.com/serpast" class="linkedin"><img src="img/en-icon.png" alt="Sergiy Pastukh"></a>
+					</div>
+					<div class="menu">
+						
+						<ul class="menu-items">
+							<div class="buger_menu" onclick="burger(this)">
+								<div class="bar1"></div>
+								<div class="bar2"></div>
+								<div class="bar3"></div>
+							</div>
+							<div class="up-arrow"></div>
+							<li class="b-about"><a>About</a></li>
+							<li class="b-price"><a>Price</a></li>
+							<li class="b-works"><a>Works</a></li>
+							<li class="b-contact"><a>Contact</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</header>
+			
+		</div>
+
+		<div class="my-content">
+			<section class="s-about" id="about">
+				<h1 class="s-name">About</h1>
+				<div class="s-tab container-flued">
+
+					<div class="s-tab-buttons row justify-content-center">
+						<div class="col-md-auto col-sm-2"><button class="tablinks" onclick="openTab(event, 'what')" id="defaultOpen"><a>What we do</a></button></div>
+						<div class="col-md-auto col-sm-2"><button class="tablinks" onclick="openTab(event, 'bio')"><a>Bio</a></button></div>
+					</div>
+
+					<div id="what" class="row justify-content-center tabcontent">
+
+						<div class="col-sm-8 col-md-6 col-lg-4 what-item ">
+							<img src="img/house-icon.png" alt="Pastukh projects" class="what-item-img">
+							<h2 class="what-item-name">Architecture</h2>
+							<p class="what-item-text">Evperienced in designing private housing, office buildings, restaurants, concept stores.
+								Project has three main parts, and, depending on our agreement, can be done from conceptual draft to finished building.
+							</p>
+							<div class="what-item-line"></div>
+							<h2 class="what-item-name">25 years of experience</h2>
+						</div>
+
+						<div class="col-sm-8 col-md-6 col-lg-4 what-item">
+							<img src="img/sofa-icon.png" alt="Pastukh projects" class="what-item-img">
+							<h2 class="what-item-name">Interior design</h2>
+							<p class="what-item-text">Public interiors as well as living need strong functionality, 
+								style concept and great attention to detail. 
+								Being familiar with contemporary technologies, 
+								materials and furniture brands, I can provide the highest level of quality.
+							</p>
+							<div class="what-item-line"></div>
+							<h2 class="what-item-name">responsibility<br>
+									punctuality<br>
+									integrity</h2>
+						</div>
+
+						<div class="col-sm-8 col-md-6 col-lg-4 what-item">
+							<img src="img/lamp-icon.png" alt="Pastukh projects" class="what-item-img">
+							<h2 class="what-item-name">Object design</h2>
+							<p class="what-item-text">For every interior project we can always design furniture elements. Wardrobes, kitchens, 
+								tables and chairs, even lighting can be created specially for your needs. Several times 
+								I participated in object design competitions dedicated to sanitary ware and city street furniture.
+							</p>
+							<div class="what-item-line"></div>
+							<h2 class="what-item-name">over 50
+									projects<br> brought <br>
+									to life</h2>
+						</div>
+
+					</div>
+
+					<div id="bio" class="row justify-content-left tabcontent">
+						<div class="col-sm-5 col-md-5 col-lg-auto bio-item">
+							<img src="img/papa.jpg" alt="" class="bio-item-img">
+						</div>
+						<div class="col-sm-8 col-md-7 col-lg-7 bio-item">
+							<h2 class="bio-item-name">Sergii Pastukh</h2>
+							<p class="bio-item-text">
+									In 1966 was born in Ismail city in Odessa region, Ukraine.<br><br>
+									1991 - Master in Architecture (Kyin National University of Construction and Architecture).<br><br>
+									1992 - architect in design institution “Zhytomyr project”.<br><br>
+									Folowing years - architect at engeniiring companies “Strekol” and “Carling”.<br><br>
+									1999 - designer at DIO<br><br>
+									Designed residental buildings at “Arkada-Dom” and “SAS archbud”.<br><br>
+									2008 - received the Architectural license, started his own design business.<br><br>
+									2008 - “Vodoparad” object design conquest participant, Kharkiv, Ukraine.<br><br>
+									2010 - winner in object design competition by Gessi.<br><br>
+									Continue working as self-enterpreneur architect and interior designer.	
+							</p>
+						</div>
+					</div>
+
+				</div>
+				
+				  
+			</section>
+			<section class="s-price" id="price">
+				<h1 class="s-name">Price</h1>
+				<div class="s-tab container-flued">
+					<div class="s-tab-buttons row justify-content-center">
+						<div class="col-md-auto col-sm-2"><button class="tablinks_price" onclick="openTab_price(event, 'arch')" id="defaultOpen_price"><a>Architecture</a></button></div>
+						<div class="col-md-auto col-sm-2"><button class="tablinks_price" onclick="openTab_price(event, 'inter')"><a>Interior</a></button></div>
+					</div>
+					<div class="row tabcontent_price" id="arch">
+						<button class="accordion">Section 1</button>
+							<div class="panel">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						<button class="accordion">Section 2</button>
+							<div class="panel">
+  								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						<button class="accordion">Section 3</button>
+							<div class="panel">
+  								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>	
+					</div>
+
+					<div class="row tabcontent_price" id="inter">
+							<button class="accordion">Section 2</button>
+								<div class="panel">
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							<button class="accordion">Section 3</button>
+								<div class="panel">
+									  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>	
+						</div>
+
+
+				</div>	
+			</section>
+			<section class="s-works" id="works">
+				<h1 class="s-name">Works</h1>
+			</section>
+			<section class="s-contact" id="contact">
+				<h1 class="s-name">Contact</h1>
+			</section>
+		</div>
+
+	</div>
+	
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
